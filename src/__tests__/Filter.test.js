@@ -79,3 +79,4 @@ test("the shopping filters based on the search term to include partial matches",
   expect(screen.queryByText("Lettuce")).not.toBeInTheDocument();
   expect(screen.queryByText("Yogurt")).not.toBeInTheDocument();
 });
+
